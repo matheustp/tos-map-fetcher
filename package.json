@@ -1,0 +1,25 @@
+{
+  "name": "tos-map-fetcher",
+  "version": "1.0.0",
+  "description": "Map fetcher to get data from tos.neet.tv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheustp/tos-map-fetcher.git"
+  },
+  "author": "Matheus Torres Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheustp/tos-map-fetcher/issues"
+  },
+  "homepage": "https://github.com/matheustp/tos-map-fetcher#readme",
+  "dependencies": {
+    "http-agent": "^0.1.2",
+    "jsdom": "^10.1.0",
+    "request": "^2.81.0"
+  }
+}
